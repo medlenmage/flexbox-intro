@@ -1,0 +1,44 @@
+body {
+  background-color: navy;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
+}
+
+.navigation {
+  background-color: goldenrod;
+  display: flex;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item a {
+  margin: 1em;
+  display: block;
+  color: #111;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: green;
+  background-color: silver;
+}
+
+footer {
+  width: 100%;
+  color: green;
+  background-color: silver;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
