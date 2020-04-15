@@ -42,3 +42,14 @@ footer {
   left: 0;
   bottom: 0;
 }
+
+.wilds {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.wild img {
+  height: 500px;
+  margin: 50px;
+}
