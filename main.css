@@ -22,8 +22,8 @@ body {
 .nav-item a {
   margin: 1em;
   display: block;
-  color: #111;
-  text-align:center;
+  color: green;
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -52,4 +52,15 @@ footer {
 .wild img {
   height: 500px;
   margin: 50px;
+}
+
+.fuzzy {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.fuzzy img {
+  height: 200px;
+  margin: 75px;
 }
